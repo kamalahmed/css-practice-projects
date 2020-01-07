@@ -1,53 +1,12 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-}
+@import './partials/base.css';
+@import './partials/header.css';
 
-a {
-    text-decoration: none;
-    color: #222222;
-}
 
-a:hover {
-    text-decoration: underline;
-}
 
-header {
-    background: linear-gradient(to right, #279fc3, #3e56fd);
-    padding: 1.5em 1em;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 1.6em;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.header-top{
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    color: #fff;
-    padding-bottom: 50px;
-}
-
-.header-top a{
-    color: inherit;
-}
-nav{
+.box{
+    background: #e3e3e3;
+    height: 100px;
     display: flex;
     justify-content: center;
-}
-
-nav > a {
-    padding: 0 20px;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
-}
-nav > a:hover{
-    color: #fff;
-    text-decoration: none;
+    align-items: center;
 }
